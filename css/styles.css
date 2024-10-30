@@ -1,6 +1,7 @@
 header {
     background-color: #FFFFFF;
 }
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
@@ -12,29 +13,39 @@ body {
 a {
     text-decoration: none;
 }
+
 .navigation-list a {
-    color: #2E2F42; /* Основний колір тексту */
+    color: #2E2F42;
+    /* Основний колір тексту */
     font-weight: 500;
     letter-spacing: 0.02em;
     text-align: left;
 }
+
 .navigation-list a:hover,
-.navigation-list a:focus { /* Колір фону при наведенні та фокусі */
+.navigation-list a:focus {
+    /* Колір фону при наведенні та фокусі */
     color: #404BBF;
 }
+
 .page-contacts a {
-    color:#434455; /* Основний колір тексту */
+    color: #434455;
+    /* Основний колір тексту */
     letter-spacing: 0.02em;
     text-align: left;
     font-style: normal;
 }
+
 .page-contacts address {
     font-style: normal;
 }
-.page-contacts navigation-list:hover,
-.page-contacts navigation-list:focus { /* Колір фону при наведенні та фокусі */
+
+.page-contacts .link:hover,
+.page-contacts .link:focus {
+    /* Колір фону при наведенні та фокусі */
     color: #404BBF;
 }
+
 .solutions {
     background-color: #2E2F42;
     color: #FFFFFF;
@@ -44,6 +55,7 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
 }
+
 .order-button {
     font-family: "Roboto", sans-serif;
     background-color: #4D5AE5;
@@ -55,10 +67,13 @@ a {
     font-size: 16px;
     line-height: 1.5;
 }
-.order-button:hover, /* Колір фону при наведенні та фокусі */
+
+.order-button:hover,
+/* Колір фону при наведенні та фокусі */
 .order-button:focus {
     background-color: #404BBF;
-    }
+}
+
 .logo {
     color: #4D5AE5;
     text-transform: uppercase;
@@ -69,10 +84,11 @@ a {
     letter-spacing: 0.03em;
     text-align: left;
 }
+
 .logo-studio {
-    color:#2E2F42;
+    color: #2E2F42;
     margin-left: -5px;
-    }
+}
 
 
 .benefits h3 {
@@ -83,17 +99,20 @@ a {
     letter-spacing: 0.02em;
     text-align: left;
 }
+
 .benefits p {
     color: #434455;
     letter-spacing: 0.02em;
     text-align: left;
 }
+
 .list-team {
     background-color: #F4F4FD;
 
 }
+
 .list-team h2 {
-    color:#2E2F42;
+    color: #2E2F42;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -101,6 +120,7 @@ a {
     text-align: center;
     text-transform: capitalize;
 }
+
 .list-team h3 {
     color: #2E2F42;
     font-size: 20px;
@@ -109,15 +129,18 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
 }
+
 .list-team p {
     color: #434455;
     letter-spacing: 0.02em;
     text-align: center;
     font-size: 16px,
 }
+
 .list-team li {
-background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
+
 .list-portfolio h2 {
     color: #2E2F42;
     font-size: 36px;
@@ -127,6 +150,7 @@ background-color: #FFFFFF;
     text-align: center;
     text-transform: capitalize;
 }
+
 .list-portfolio h3 {
     color: #2E2F42;
     font-size: 20px;
@@ -137,16 +161,18 @@ background-color: #FFFFFF;
 }
 
 .list-portfolio p {
-    color:#434455;
+    color: #434455;
     letter-spacing: 0.02em;
     text-align: left;
 }
+
 .page-bottom {
-    background-color:#2E2F42;
+    background-color: #2E2F42;
     color: #F4F4FD;
     letter-spacing: 0.02em;
     text-align: left;
 }
+
 .logo-studio-white {
     color: #F4F4FD;
 }
