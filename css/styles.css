@@ -28,6 +28,9 @@ a {
     text-align: left;
     font-style: normal;
 }
+.page-contacts address {
+font-style: normal;
+}
 .page-contacts .link:hover,
 .page-contacts .link:focus { /* Колір фону при наведенні та фокусі */
     color: #404BBF;
@@ -111,6 +114,9 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     font-size: 16px,
+}
+.list-team li {
+background-color: #FFFFFF;
 }
 .list-portfolio h2 {
     color: #2E2F42;
