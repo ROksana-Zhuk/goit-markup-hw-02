@@ -14,38 +14,30 @@ a {
     text-decoration: none;
 }
 .navigation-list a {
-    color: #2E2F42;
-    font-family: Roboto;
-    font-size: 16px;
+    color: #2E2F42; /* Основний колір тексту */
     font-weight: 500;
-    line-height: 24px;
     letter-spacing: 0.02em;
     text-align: left;
+}
+.navigation-list a:hover,
+.navigation-list a:focus { /* Колір фону при наведенні та фокусі */
+    color: #404BBF;
 }
 .page-contacts a {
-    color:#434455;;
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
+    color:#434455; /* Основний колір тексту */
     letter-spacing: 0.02em;
     text-align: left;
 }
-.class:hover,
-.class:focus {
-    властивість: значення;
+.page-contacts .link:hover,
+.page-contacts .link:focus { /* Колір фону при наведенні та фокусі */
+    color: #404BBF;
 }
-/*
-.page-nav .link:hover,.link:focus {
-            color:
-}*/
 .solutions {
     background-color: #2E2F42;
     color: #FFFFFF;
-    font-family: Roboto;
     font-size: 56px;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
 }
@@ -53,19 +45,20 @@ a {
     background-color: #4D5AE5;
     color: #FFFFFF;
     cursor: pointer;
-    font-family: Roboto;
-    font-size: 16px;
     font-weight: 500;
-    line-height: 24px;
     letter-spacing: 0.04em;
     text-align: left;
 }
+.order-button:hover, /* Колір фону при наведенні та фокусі */
+.order-button:focus {
+    background-color: #404BBF;
+    }
 .logo {
     text-transform: uppercase;
     font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
+    line-height: 1.16;
     letter-spacing: 0.03em;
     text-align: left;
 }
@@ -81,19 +74,14 @@ a {
 
 .benefits h3 {
     color: #2E2F42;
-    font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: left;
 }
 .benefits p {
     color: #434455;
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
     letter-spacing: 0.02em;
     text-align: left;
 }
@@ -102,66 +90,50 @@ a {
 }
 .list-team h2 {
     color:#2E2F42;
-    font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
 }
 .list-team h3 {
     color: #2E2F42;
-    font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
 }
 .list-team p {
     color: #434455;
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
     letter-spacing: 0.02em;
     text-align: center;
 }
 .list-portfolio h2 {
     color: #2E2F42;
-    font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
 }
 .list-portfolio h3 {
     color: #2E2F42;
-    font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: left;
 }
 
 .list-portfolio p {
     color:#434455;
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
     letter-spacing: 0.02em;
     text-align: left;
 }
 footer {
     background-color:#2E2F42;
     color: #F4F4FD;
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
     letter-spacing: 0.02em;
     text-align: left;
 }
