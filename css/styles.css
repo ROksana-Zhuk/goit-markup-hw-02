@@ -14,7 +14,7 @@ a {
     text-decoration: none;
 }
 
-.navigation-list a {
+.navigation-link a {
     color: #2E2F42;
     /* Основний колір тексту */
     font-weight: 500;
@@ -22,8 +22,8 @@ a {
     text-align: left;
 }
 
-.navigation-list a:hover,
-.navigation-list a:focus {
+.navigation-link a:hover,
+.navigation-link a:focus {
     /* Колір фону при наведенні та фокусі */
     color: #404BBF;
 }
@@ -91,7 +91,7 @@ a {
 }
 
 
-.benefits h3 {
+.benefits-subtitle {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
@@ -100,18 +100,18 @@ a {
     text-align: left;
 }
 
-.benefits p {
+.benefits-text {
     color: #434455;
     letter-spacing: 0.02em;
     text-align: left;
 }
 
-.list-team {
+.team {
     background-color: #F4F4FD;
 
 }
 
-.list-team h2 {
+.team-title {
     color: #2E2F42;
     font-size: 36px;
     font-weight: 700;
@@ -121,7 +121,7 @@ a {
     text-transform: capitalize;
 }
 
-.list-team h3 {
+.team-subtitle {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
@@ -130,18 +130,18 @@ a {
     text-align: center;
 }
 
-.list-team p {
+.team-text {
     color: #434455;
     letter-spacing: 0.02em;
     text-align: center;
     font-size: 16px,
 }
 
-.list-team li {
+.team-items {
     background-color: #FFFFFF;
 }
 
-.list-portfolio h2 {
+.portfolio-title {
     color: #2E2F42;
     font-size: 36px;
     font-weight: 700;
@@ -151,7 +151,7 @@ a {
     text-transform: capitalize;
 }
 
-.list-portfolio h3 {
+.portfolio-subtitle {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
@@ -160,7 +160,7 @@ a {
     text-align: left;
 }
 
-.list-portfolio p {
+.portfolio-text {
     color: #434455;
     letter-spacing: 0.02em;
     text-align: left;
