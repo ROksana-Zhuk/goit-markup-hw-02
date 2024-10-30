@@ -14,7 +14,7 @@ a {
     text-decoration: none;
 }
 
-.navigation-link a {
+.navigation-link {
     color: #2E2F42;
     /* Основний колір тексту */
     font-weight: 500;
@@ -22,8 +22,8 @@ a {
     text-align: left;
 }
 
-.navigation-link a:hover,
-.navigation-link a:focus {
+.navigation-link:hover,
+.navigation-link:focus {
     /* Колір фону при наведенні та фокусі */
     color: #404BBF;
 }
