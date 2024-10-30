@@ -1,6 +1,5 @@
 header {
     background-color: #FFFFFF;
-    border-bottom: 1px solid #E7E9FC
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -27,6 +26,7 @@ a {
     color:#434455; /* Основний колір тексту */
     letter-spacing: 0.02em;
     text-align: left;
+    font-style: normal;
 }
 .page-contacts .link:hover,
 .page-contacts .link:focus { /* Колір фону при наведенні та фокусі */
@@ -42,35 +42,35 @@ a {
     text-align: center;
 }
 .order-button {
+    font-family: "Roboto", sans-serif;
     background-color: #4D5AE5;
     color: #FFFFFF;
     cursor: pointer;
     font-weight: 500;
     letter-spacing: 0.04em;
     text-align: left;
+    font-size: 16px;
+    line-height: 1.5;
 }
 .order-button:hover, /* Колір фону при наведенні та фокусі */
 .order-button:focus {
     background-color: #404BBF;
     }
 .logo {
+    color: #4D5AE5;
     text-transform: uppercase;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-align: left;
 }
-
 .logo-studio {
     color:#2E2F42;
     margin-left: -5px;
+    }
 
-    }
-.logo-web {
-    color: #4D5AE5;
-    }
 
 .benefits h3 {
     color: #2E2F42;
@@ -87,6 +87,7 @@ a {
 }
 .list-team {
     background-color: #F4F4FD;
+
 }
 .list-team h2 {
     color:#2E2F42;
@@ -95,6 +96,7 @@ a {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
 }
 .list-team h3 {
     color: #2E2F42;
@@ -108,6 +110,7 @@ a {
     color: #434455;
     letter-spacing: 0.02em;
     text-align: center;
+    font-size: 16px,
 }
 .list-portfolio h2 {
     color: #2E2F42;
@@ -116,6 +119,7 @@ a {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
 }
 .list-portfolio h3 {
     color: #2E2F42;
@@ -131,7 +135,7 @@ a {
     letter-spacing: 0.02em;
     text-align: left;
 }
-footer {
+.page-bottom {
     background-color:#2E2F42;
     color: #F4F4FD;
     letter-spacing: 0.02em;
