@@ -16,7 +16,6 @@ a {
 
 .navigation-link {
     color: #2E2F42;
-    /* Основний колір тексту */
     font-weight: 500;
     letter-spacing: 0.02em;
     text-align: left;
@@ -24,25 +23,23 @@ a {
 
 .navigation-link:hover,
 .navigation-link:focus {
-    /* Колір фону при наведенні та фокусі */
     color: #404BBF;
 }
 
 .page-contacts a {
     color: #434455;
-    /* Основний колір тексту */
     letter-spacing: 0.02em;
     text-align: left;
     font-style: normal;
+
 }
 
-.page-contacts address {
+.page-contacts {
     font-style: normal;
 }
 
 .page-contacts .link:hover,
 .page-contacts .link:focus {
-    /* Колір фону при наведенні та фокусі */
     color: #404BBF;
 }
 
@@ -69,7 +66,6 @@ a {
 }
 
 .order-button:hover,
-/* Колір фону при наведенні та фокусі */
 .order-button:focus {
     background-color: #404BBF;
 }
