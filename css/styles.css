@@ -29,10 +29,10 @@ a {
     font-style: normal;
 }
 .page-contacts address {
-font-style: normal;
+    font-style: normal;
 }
-.page-contacts .link:hover,
-.page-contacts .link:focus { /* Колір фону при наведенні та фокусі */
+.page-contacts navigation-list:hover,
+.page-contacts navigation-list:focus { /* Колір фону при наведенні та фокусі */
     color: #404BBF;
 }
 .solutions {
